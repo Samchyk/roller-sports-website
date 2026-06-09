@@ -61,7 +61,7 @@ export default function Header() {
         {/* CTA */}
         <div className="hidden md:flex items-center gap-4">
           <Link
-            href="/rolunk#kapcsolat"
+            href="/#kapcsolat"
             className="text-xs font-semibold tracking-[0.15em] uppercase px-5 py-2 border border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
           >
             Kapcsolat
@@ -97,7 +97,7 @@ export default function Header() {
             </Link>
           ))}
           <Link
-            href="/rolunk#kapcsolat"
+            href="/#kapcsolat"
             onClick={() => setOpen(false)}
             className="text-xs font-semibold tracking-[0.15em] uppercase px-5 py-2.5 border border-primary/50 text-primary text-center hover:bg-primary hover:text-primary-foreground transition-all duration-300"
           >

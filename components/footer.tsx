@@ -9,6 +9,7 @@ const footerLinks = {
     { href: '/blog', label: 'Blog' },
   ],
   'Jogi': [
+    { href: '/adatvedelmi-iranyelvek', label: 'Adatvédelmi irányelvek' },
     { href: '/cookie-iranyelvek', label: 'Cookie irányelvek' },
   ],
 }
@@ -45,7 +46,7 @@ export default function Footer() {
               amit a görkorcsolyázásról tudni érdemes — egy helyen.
             </p>
 
-            <div className="mt-8">
+            <div id="kapcsolat" className="mt-8 scroll-mt-28">
               <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-2">
                 Kapcsolat
               </p>
