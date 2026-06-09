@@ -10,8 +10,6 @@ export const metadata: Metadata = {
     'Hogyan használ sütiket (cookie-kat) a hungarygorkorcsolyazas.com. A sütik típusai, céljuk, kezelésük és a böngészőbeállítások részletes ismertetése.',
 }
 
-const lastUpdated = '2026. június 7.'
-
 const cookieTypes = [
   {
     icon: Shield,
@@ -90,9 +88,6 @@ export default function CookiePolicyPage() {
           <p className="mt-6 text-muted-foreground text-base lg:text-lg max-w-2xl leading-relaxed">
             Átlátható tájékoztatás arról, hogyan és miért használunk sütiket a
             hungarygorkorcsolyazas.com oldalon — és hogyan tarthatod kézben őket.
-          </p>
-          <p className="mt-6 text-xs tracking-[0.2em] uppercase text-muted-foreground">
-            Utoljára frissítve: {lastUpdated}
           </p>
         </div>
       </section>
